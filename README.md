@@ -1,5 +1,5 @@
 # able-elec
-上海卓越
+ABButton:
 这是一个自定义button工具，适用于Mac OS开发；
 ABButton继承自NSControl；
 ABButton支持根据button的状态设置背景图片、背景颜色；
