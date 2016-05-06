@@ -138,7 +138,7 @@
         }
     };
     //弹幕生成后，加到视图上
-    view.frame = CGRectMake(CGRectGetWidth(self.frame)+CGRectGetWidth(view.bounds), 34 * view.trajectory, CGRectGetWidth(view.bounds), CGRectGetHeight(view.bounds));
+    view.frame = CGRectMake(CGRectGetWidth(self.frame)+CGRectGetWidth(view.bounds)-20, 34 * view.trajectory, CGRectGetWidth(view.bounds), CGRectGetHeight(view.bounds));
     [self addSubview:view];
     [view startAnimation];
 }

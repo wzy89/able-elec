@@ -27,31 +27,32 @@
     [settingDic setBulletAnimationDuration:5.0];
     [_bulletView setBulletDic:settingDic];
     
-    _bulletView.dataSource = @[@"我去",
+    _bulletView.dataSource = @[@"我去😂",
                                @"路见不平",
                                @"拔刀相助",
                                @"额，就是负伤啊",
-                               @"错了，那是勇猛无敌",
+                               @"错了，那是勇猛无敌😓",
                                @"哈？！英雄救美呢！！！！！",
                                @"哈哈哈哈。。。",
                                @"你们说错啦，那个坑货！",
                                @"这是一个故事啊！",
-                               @"不懂不要乱说",
+                               @"不懂不要乱说😢",
                                @"额。。。",
-                               @"什么情况",
+                               @"什么情况😖",
                                @"hello meizi",
                                @"天理难容啊～",
                                @"放开它，让我来",
                                @"nb",
                                @"这样都可以？！",
                                @"看不懂",
-                               @"不错不错，有大酱风范～",
+                               @"不错不错，有大酱风范～😊",
                                @"如果有一天。。。",
                                @"我去，天掉下来了",
                                @"都挺好的",
-                               @"你们看到后面了吗，貌似有背景呢，哈哈哈哈哈。。。",
-                               @"真是，额，强",
-                               @"可以可以"];
+                               @"你们看到后面了吗😺，貌似有背景呢，哈哈哈哈哈。。。",
+                               @"真是，额，强😳",
+                               @"可以可以",
+                               @"赞👍"];
     [self.view addSubview:_bulletView];
 
     UITextField *tf = [[UITextField alloc] initWithFrame:CGRectMake(0, 400, self.view.frame.size.width, 35)];
